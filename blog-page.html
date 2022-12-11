@@ -1,29 +1,50 @@
-
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Blog page</title>
-    <meta
-      content="width=device-width, initial-scale=1, maximum-scale=1"
-      name="viewport"
-    />
-    <link rel="stylesheet" href="blog-page.css">
-  </head>
-
-  <body>
-  <div class = "container">
-    <div class="header box">Header</div>
-    <div class="sidebar box"><h1>Blog Posts</h1><a href="post.html">Most Recent Post</a></div>
-    <div class="content box">
-
-      <div class="nestedGrid">
-        <div><h1>Thursday</h1></div>
-        <div><h1>Fall</h1></div>
-        <div><h1>Fritz</h1></div>
-        <div><h1>Dairy Free</h1></div>
-      </div>
-    </div>
-    <div class="footer box">Footer</div>
-  </div>
-  </body>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <title>Tech Blog post</title>
+    </head>
+    <body>
+        <div class="blog-container">
+            <header class="box">
+                <h1 class="header-title">Personal Tech blog</h1>
+                <h2 class="header-subtitle">A blog about coding Quotes</h2>
+            </header>
+            <nav class="box sidebar">
+                <div class="sidebar-pages">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="design-blog-page.html" class="nav-link">Design</a>
+                </div>
+            </nav>
+            <article class="box">
+                <div class="blog-post">
+                    <h2>Tech Blog </h2>
+                    <h4 class="blog-date">April 6, 2022</h4>
+                    <img src="tech-blog-2.webp" alt="t" class="tech-blog-post-img">
+                    <p class="blog-intro">This blog page is to welcome any body interested in coding Quotes & wants a great experince reading & writing Quotes.</p>
+                    <p>Let's code toegther & learn toegther</p>
+                    <blockquote>
+                      Good programmers write code that humans can understand.” – Martin Fowler
+                    </blockquote>
+                    <p>First, solve the problem. Then, write the code.” – John Johnson</p>
+                    <p>“Experience is the name everyone gives to their mistakes.” – Oscar Wilde</p>
+               
+                <div class="box bio-description">
+                    <h3 class="bio-header">Author</h3>
+                    <h4 class="blog-date">Volkan Ozuneguven, learning how to code</h4>
+                    <p>I found absolutely amazing programming Quotes!</p>
+                </div>
+            </div>
+            <div class="box" id="share">
+                <a href="https://www.facebook.com/Udacity/" class="social-link">
+                    <img src="facebook image.jpeg" width="100" height="100" alt="Photo of facebook">
+                </a>
+            </div>
+            <footer class="box">
+               by <a href="https://github.com/vozuneguven/blog-page">Volkan Ozuneguven</a>
+            </footer>
+        </div>
+    </body>
 </html>
