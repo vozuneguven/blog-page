@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="CSS/style.css">
         <title>Personal Blog</title>
     </head>
     <body>
@@ -14,11 +14,9 @@
             </header>
             <nav class="box">
                 <a href="pages/blog-post.html" class="nav-link nav-hide">Latest Post</a>
-                <a href="pages/design.html" class="nav-link nav-hide">Design</a>
                 <div class="nav-sidebar">
                     <div class="sidebar-pages">
-                        <a href="#" class="nav-link">Home</a>
-                        <a href="pages/design.html" class="nav-link">Design</a>
+                        <a href="blog-page.html" class="nav-link">Home</a>
                     </div>
                     <h2 class="sidebar-header">Latest Posts</h2>
                     <ul class="sidebar-list">
@@ -30,7 +28,10 @@
             </nav>
             <div class="box" id="main">
                 <div class="box blog-card" id="post-1">
-                    <img src="tech-blog-2.webp" alt="tech-blog" class=blog-img>
+                    <figure>
+                        <img src="CSS/images/tech-blog-2.webp" alt="Tech" style="width:100%">
+                        <figcaption>Tech blog image.</figcaption>
+                      </figure>
                     <div class="blog-card-text">
                         <h2 class="blog-title">Tech Quote Blog</h2>
                         <h4 class="blog-date">Dec 10, 2022</h4>
@@ -39,10 +40,13 @@
                     </div>                 
                 </div>
                 <div class="box blog-card" id="post-2">
-                    <img src="Tech-Blog-Preview.png" alt="Tech" class="blog-img">
-                    <div class="blog-card-text">
+                    <figure>
+                        <img src="CSS/images/tech-blog-2.webp" alt="Tech" style="width:100%">
+                        <figcaption>Tech Blog image.</figcaption>
+                      </figure>
+                      <div class="blog-card-text">
                         <h2 class="blog-title">Tech Quote Blog</h2>
-                        <h4 class="blog-date">Dec 10, 2022</h3> 
+                        <h4 class="blog-date">Dec 10, 2022</h4> 
                         <p>I believe a sense of humor is important for career advancement, while 84 percent feel that people with a good sense of humor do a better job.</p>
                         <a href="blog-page.html" class="button">Read more &rarr;</a> 
                     </div>
